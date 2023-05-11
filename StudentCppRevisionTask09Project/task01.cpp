@@ -26,18 +26,13 @@
 
 int task01(int a) {
 	
-	/*if (a < 0||a==1) {
+	if (a < 0||a==1) {
 		return 0;
 	}
 
-	int result=0;
-
-	for (int i = 2; i < a; i++) {
+	for (int i = 2; i <= a; i++) {
 		if (a % i == 0) {
-			result = i;
+			return i;
 		}
-		break;
-	}*/
-
-	return 0;
+	}
 }
